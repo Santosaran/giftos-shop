@@ -1,0 +1,298 @@
+
+body{
+    max-width: 1440px;
+    margin: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading_h1{
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9ece6;
+    color: black;
+}
+
+.nav_h3{
+    margin: 5px 0px;
+    padding: 5px 25px;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.head_container{
+    background-color: #f89cab;
+    color: black; 
+}
+
+.top_container{
+    display: flex;
+    color: white;
+
+}
+
+.left_container{
+    margin: 4rem 0;
+    float: left;
+    padding: 3rem;
+    width: 40%;
+}
+
+.right_container{
+    float: right;
+    padding: 1rem;
+}
+
+.main_h1{
+    font-size: 3rem;
+}
+
+button{
+    text-align: center;
+    color: white;
+    background-color: #bd4566;
+    margin: 25px 0px 0px;
+    padding: 10px 40px;
+    border: 1px solid #bd4566 ;
+}
+
+button:hover{
+    background-color: #f89cab;
+}
+
+.first_box{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_img{
+    width:40%;
+    height: auto;
+    margin-left: 5rem;
+}
+
+.box_1{
+    padding: 0.3rem;
+    background-color: rgb(227, 223, 223);
+    border: 1px solid black;
+    margin-right: 1rem;
+}
+
+.box_2{
+    padding: 0.3rem;
+    background-color: rgb(227, 223, 223);
+    border: 1px solid black;
+    margin-right: 1rem;
+}
+
+.box_3{
+    padding: 0.3rem;
+    background-color: rgb(227, 223, 223);
+    border: 1px solid black;
+    margin-right: 1rem;
+}
+
+.box_4{
+    padding: 0.3rem;
+    background-color: rgb(227, 223, 223);
+    border: 1px solid black;
+    margin-right: 1rem;
+}
+
+
+
+.pro_p{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    top: 10px;
+}
+
+.span_box{
+    width: 100%;
+}
+
+.span_left{
+    width: 30%;
+    float: left;
+}
+
+.span_right{
+    width: 30%;
+    float: right;
+}
+
+.pro_but{
+    margin-left: 40rem;
+}
+
+.middle_container{
+    display: flex;
+    margin: 1rem;
+    background-color: #7fd7eb;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+}
+
+.lef_container{
+   float: left;
+   width: 40%;
+}
+
+.rit_container{
+    margin-top: 4rem;
+    float: right;
+    width: 50%;
+}
+
+.mid_h1{
+    font-size: 2rem;
+}
+
+.mid_but{
+    background-color: #109dbd;
+    color: white;
+}
+
+.mid1_but{
+    background-color: white;
+    color: black;
+}
+
+.mid_but:hover{
+    background-color: #7fd7eb;
+}
+
+.mid1_but:hover{
+    background-color: #7fd7eb;
+}
+
+.parts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.part1, .part2, .part3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.gift_img{
+    width: 100%;
+}
+
+.middle2_container{
+    display: flex;
+    margin: 1rem;
+    background-color: #6929a5 ;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+}
+
+.rit2_container{
+    margin-top: 6rem;
+    float: right;
+    width: 50%;
+}
+
+.mido_but{
+    background-color: white;
+    color: black;
+}
+
+.mido1_but{
+    background-color: #683d91;
+    color: white;
+}
+
+.mido_but:hover{
+    background-color: #6929a5;
+}
+
+.mido1_but:hover{
+    background-color: #6929a5;
+}
+
+.contact_h1{
+    margin: 1rem;
+}
+
+.contact_container{
+    width: 110%;
+    display: flex;
+    align-items: center;
+}
+
+.map_container{
+    float: left;
+    width: 40%;
+    margin: 2rem;
+}
+
+.form_container input{
+    float: right;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.testimonials{
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.social_icons{
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.abnc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.aboutus, .newsletter, .needhelp, .cntctus{
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 30%;
+}
+
+.newsletter input{
+    padding: 7px 30px;
+}
+
